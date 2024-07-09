@@ -36,6 +36,6 @@ console.log(persona1.saludar());
 
 
 document.querySelector("#persona").innerHTML =/*html*/`
-    <h1>Nombre: <span>${persona1.edad}</span></h1>
+    <h1>Edad: <span>${persona1.edad}</span></h1>
     <h2>Nombre: <span>${persona1.nombre}</span></h2>
-    <h2>Nombre: <span>${persona1.genero}</span></h2>`;
+    <h2>Genero: <span>${persona1.genero}</span></h2>`;
